@@ -1,20 +1,19 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='ExeToApkPythonModule',  # Name of the module
-    version='0.1',
-    packages=find_packages(),  # Automatically find all sub-packages
-    install_requires=[          # Dependencies for the module
+    name="ExeToApkPythonModule",  # Module name
+    version="0.1.0",              # Module version
+    packages=find_packages(),     # Automatically find all packages
+    install_requires=[            # List of dependencies
         'buildozer',
         'pyinstaller',
         'apktool',
     ],
-    entry_points={              # Make the module executable via python -m
+    entry_points={                # This allows the module to be run from the CLI
         'console_scripts': [
-            'exe-to-apk=exe_to_apk.exe_to_apk:main',  # Define the entry point
+            'exe-to-apk = exe_to_apk.exe_to_apk:main',  # Define CLI command
         ],
     },
-    include_package_data=True,  # Ensure MANIFEST.in is used
-    long_description=open('README.md').read(),
-    long_description_content_type='text/markdown',
+    include_package_data=True,
+    python_requires='>=3.6',  # Python version requirement
 )
