@@ -44,3 +44,56 @@ pip uninstall flask werkzeug
 pip install flask werkzeug
 python main.py
 git clone https://huggingface.co/spaces/Peeble/Exe-To-Apk
+git clone https://huggingface.co/spaces/Peeble/Exe-To-Apk-2
+python server.py
+curl -X POST -F "file=@test.exe" http://192.168.1.100:5000/upload
+nano server.py
+python server.py
+pip install pyngrok
+python server.py
+git clone https://huggingface.co/spaces/Peeble/There-Is-A-Chat
+git clone https://huggingface.co/spaces/Peeble/Chatbot
+git commit -am "Update space" git push
+git commit -am 'Update space' && git push
+git commit -am 'Update space'
+git config --global user.email "tubaina.vl.popper@gmail.com" && git config --global user.name "Peeble"
+git commit -am 'Update space' && git push
+git push --set-upstream origin master
+git commit -am 'Update space' && git push
+git add
+git config set advice.addEmptyPathspec false
+git add
+git add    ../.cache/pip/http-v2/0/0/
+git commit -am 'Update space' && git push
+git help config push.autoSetupRemote
+git help
+git commit -am 'Update space' && git push
+git add app.py
+git add requirements.txt
+git commit -am 'Update space' && git push
+pkg update && pkg upgrade -y
+pkg install x11-repo -y
+termux-setup-storage
+pip install flask flask-cors werkzeug
+apt install wine box86 android-sdk
+sudo dpkg --add-architecture i386
+sudo apt update
+sudo apt install wine64 wine32
+pkg install tsu
+sudo dpkg --add-architecture i386
+sudo apt update
+sudo apt install wine64 wine32
+su
+proot-distro install ubuntu
+pkg install proo-distro
+pkg install proot-distro
+proot-distro install ubuntu
+python server.py
+python server.py
+pip install PIL
+pip install pillow
+git clone https://huggingface.co/spaces/Peeble/exe_executor
+pkg install wine
+pkg install wine -y
+proot-distro login ubuntu
+exit
